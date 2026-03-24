@@ -12,7 +12,7 @@
 import type {
   ChannelPlugin as SDKChannelPlugin,
   OpenClawConfig,
-} from "openclaw/plugin-sdk/core";
+} from "openclaw/plugin-sdk/plugin-entry";
 import type {
   ChannelAccountSnapshot as SDKChannelAccountSnapshot,
   ChannelGatewayContext as SDKChannelGatewayContext,
