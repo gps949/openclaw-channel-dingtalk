@@ -1,4 +1,4 @@
-import type { OpenClawConfig } from "openclaw/plugin-sdk/core";
+import type { OpenClawConfig } from "openclaw/plugin-sdk/plugin-entry";
 import type { ChannelDirectoryEntry } from "openclaw/plugin-sdk/directory-runtime";
 import { getConfig, stripTargetPrefix } from "../config";
 import { resolveOriginalPeerId } from "../peer-id-registry";

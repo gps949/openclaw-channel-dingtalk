@@ -1,4 +1,4 @@
-import { defineChannelPluginEntry, type OpenClawPluginApi } from "openclaw/plugin-sdk/core";
+import { defineChannelPluginEntry, type OpenClawPluginApi } from "openclaw/plugin-sdk/plugin-entry";
 import { readStringParam } from "openclaw/plugin-sdk/param-readers";
 import { dingtalkPlugin } from "./src/channel";
 import { getConfig } from "./src/config";
